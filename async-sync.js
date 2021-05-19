@@ -1,4 +1,6 @@
 
+//
+
 //Programe principale : synchrone
 console.log("Before");
 
@@ -8,8 +10,8 @@ console.log("user :",user);
 console.log("After");
 
 
-//function..asynchrone : tasl for the future
-
+//function..asynchrone : task for the future..take some time to store in db--get data from db..timer..ect
+//result of asynchrone function will be ready in the future 
 function getUser(id){
 
     setTimeout(()=>{
